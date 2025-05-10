@@ -3,6 +3,11 @@ import FloatingImagesSection, {
   ImageConfig,
 } from "./components/FloatingImagesSection";
 import CartaSection from "./components/CartaSection";
+import PeaceCorner from "./components/PeaceCorner";
+import MotivationCorner from "./components/MotivationCorner";
+import BreathingCorner from "./components/BreathCorner";
+import SosCorner from "./components/SosCorner";
+import Wishlist from "./components/Wishlist";
 
 const imagesForMom: ImageConfig[] = [
   // Ejemplo de configuración de imágenes (¡reemplaza con las tuyas!)
@@ -152,6 +157,11 @@ function App() {
           tus hijitos que te aman.
         </p>
       </CartaSection>
+      <PeaceCorner></PeaceCorner>
+      <MotivationCorner></MotivationCorner>
+      <BreathingCorner></BreathingCorner>
+      <SosCorner></SosCorner>
+      <Wishlist></Wishlist>
     </main>
   );
 }
