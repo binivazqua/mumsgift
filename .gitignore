@@ -1,0 +1,25 @@
+# 🔧 Node modules
+/node_modules
+
+# 🏗 Build output
+/dist
+
+# 🔐 Environment variables
+.env
+.env.local
+
+# 🧹 macOS system files
+.DS_Store
+
+# 🛠 Vite cache
+.vite
+
+# 🚀 Optional logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 💻 VS Code settings (opcional si compartes workspace)
+.vscode
+.gitignore # esto es irónico pero válido
+.gitignore # esto es irónico pero válido
