@@ -10,16 +10,12 @@ import SosCorner from "./components/SosCorner";
 import Wishlist from "./components/Wishlist";
 
 const imagesForMom: ImageConfig[] = [
-  // Ejemplo de configuración de imágenes (¡reemplaza con las tuyas!)
-  // Puedes usar porcentajes o unidades fijas para positionClasses.
-  // Tailwind usa `rem` por defecto para unidades como top-10 (equivale a top: 2.5rem)
-  // Si quieres pixeles exactos, puedes usar clases como `top-[60px]`.
   {
     id: 1,
-    src: "src/assets/arbolito.jpeg", // Reemplaza con tu imagen, ej. मॉमFoto1 o '/images/tu-foto-1.jpg'
+    src: "src/assets/arbolito.jpeg",
     alt: "Recuerdo bonito 1",
-    positionClasses: "top-[10%] left-[8%] sm:top-[15%] sm:left-[10%]",
-    sizeClasses: "md:w-[250px] md:h-64 sm:w-24 sm:h-32",
+    positionClasses: "top-[10%] left-[8%] md:top-[15%] md:left-[10%]",
+    sizeClasses: "w-36 h-48 md:w-[250px] md:h-64",
     rotationClasses: "transform -rotate-3",
     animationClass: "animate-gentle-float",
     zIndex: "z-10",
@@ -28,18 +24,17 @@ const imagesForMom: ImageConfig[] = [
     id: 2,
     src: "src/assets/cartulina.jpeg",
     alt: "Mamá sonriendo",
-    positionClasses: "md:top-[20%] md:right-[10%] sm:top-[25%] sm:right-[12%]",
-    sizeClasses: "md:w-[250px] md:h-[100px] sm:w-32 sm:h-24",
+    positionClasses: "top-[20%] right-[12%] md:top-[20%] md:right-[10%]",
+    sizeClasses: "w-40 h-28 md:w-[250px] md:h-[100px]",
     animationClass: "animate-gentle-float",
-    animationDelay: "0.5s", // Pequeño desfase en la animación
+    animationDelay: "0.5s",
   },
   {
     id: 3,
     src: "src/assets/camita.jpeg",
     alt: "Viaje familiar",
-    positionClasses:
-      "md:bottom-[15%] md:left-[8%] sm:bottom-[20%] sm:left-[15%]",
-    sizeClasses: "md:w-[300px] md:h-36 sm:w-28 sm:h-40",
+    positionClasses: "bottom-[25%] left-[35%] md:bottom-[15%] md:left-[8%]",
+    sizeClasses: "w-36 h-48 md:w-[300px] md:h-36",
     rotationClasses: "transform rotate-2",
     animationClass: "animate-gentle-float",
     animationDelay: "1s",
@@ -49,8 +44,8 @@ const imagesForMom: ImageConfig[] = [
     id: 4,
     src: "src/assets/manollegandoacasa.jpeg",
     alt: "Momentos especiales",
-    positionClasses: "bottom-[10%] right-[15%] sm:bottom-[12%] sm:right-[18%]",
-    sizeClasses: "md:w-52 h-64 sm:w-40 sm:h-30",
+    positionClasses: "bottom-[18%] right-[28%] md:bottom-[10%] md:right-[15%]",
+    sizeClasses: "w-40 h-32 md:w-52 md:h-64",
     rotationClasses: "transform -rotate-1",
     animationClass: "animate-gentle-float",
     animationDelay: "0.2s",
@@ -59,74 +54,62 @@ const imagesForMom: ImageConfig[] = [
     id: 5,
     src: "src/assets/musical.jpeg",
     alt: "Abrazos",
-    // Ejemplo para una imagen más central en pantallas pequeñas, y distinta en medianas
     positionClasses:
-      "top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:top-1/4 md:bottom-[30%] md:left-[45%]",
-    sizeClasses: "md:w-36 md:h-44 sm:w-20 sm:h-28",
+      "top-[40%] left-[20%] transform -translate-x-1/2 -translate-y-1/2 md:top-1/4 md:bottom-[30%] md:left-[45%]",
+    sizeClasses: "w-28 h-40 md:w-36 md:h-44",
     rotationClasses: "transform rotate-6",
     animationClass: "animate-gentle-float",
     animationDelay: "0.7s",
-    zIndex: "z-0", // Detrás de otras si se superponen
+    zIndex: "z-0",
   },
   {
     id: 6,
     src: "src/assets/tiburoncin.jpeg",
     alt: "Abrazos",
-    // Ejemplo para una imagen más central en pantallas pequeñas, y distinta en medianas
     positionClasses:
-      "top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:top-auto md:bottom-[30%] md:left-[35%]",
-    sizeClasses: "md:w-80 h-96 sm:w-20 sm:h-28",
+      "top-[28%] left-[10%] transform -translate-x-1/2 -translate-y-1/2 md:top-auto md:bottom-[30%] md:left-[35%]",
+    sizeClasses: "w-32 h-48 md:w-80 md:h-96",
     rotationClasses: "transform rotate-6",
     animationClass: "animate-gentle-float",
     animationDelay: "0.7s",
-    zIndex: "z-0", // Detrás de otras si se superponen
+    zIndex: "z-0",
   },
   {
-    id: 6,
+    id: 7,
     src: "src/assets/cumplebini.jpeg",
-    alt: "Abrazos",
-    // Ejemplo para una imagen más central en pantallas pequeñas, y distinta en medianas
+    alt: "Cumpleaños",
     positionClasses:
-      "md:top-1/2 md:left-[8%] transform -translate-x-1/2 -translate-y-1/2 md:top-auto md:bottom-[30%] md:left-[35%]",
-    sizeClasses: "md:w-44 h-96 sm:w-20 sm:h-28",
+      "top-[55%] left-[10%] md:top-auto md:bottom-[30%] md:left-[35%]",
+    sizeClasses: "w-40 h-48 md:w-44 md:h-96",
     rotationClasses: "transform rotate-6",
     animationClass: "animate-gentle-float",
     animationDelay: "0.7s",
-    zIndex: "z-0", // Detrás de otras si se superponen
+    zIndex: "z-0",
   },
   {
-    id: 6,
+    id: 8,
     src: "src/assets/tortugas.jpeg",
-    alt: "Abrazos",
-    // Ejemplo para una imagen más central en pantallas pequeñas, y distinta en medianas
+    alt: "Tortugas",
     positionClasses:
-      "md:top-[100px] md:left-[60%] transform -translate-x-1/2 -translate-y-1/2 md:top-auto md:bottom-[30%] md:left-[35%]",
-    sizeClasses: "md:w-24 h-96 sm:w-20 sm:h-28",
+      "top-[100px] left-[60%] transform -translate-x-1/2 -translate-y-1/2 md:top-auto md:bottom-[30%] md:left-[35%]",
+    sizeClasses: "w-28 h-48 md:w-24 md:h-96",
     rotationClasses: "transform rotate-6",
     animationClass: "animate-gentle-float",
     animationDelay: "0.7s",
-    zIndex: "z-0", // Detrás de otras si se superponen
+    zIndex: "z-0",
   },
   {
-    id: 6,
+    id: 9,
     src: "src/assets/los3.jpeg",
     alt: "los3",
-    // Ejemplo para una imagen más central en pantallas pequeñas, y distinta en medianas
     positionClasses:
-      "md:top-[45%] md:left-[80%] transform -translate-x-1/2 -translate-y-1/2 md:top-auto md:bottom-[30%] md:left-[35%]",
-    sizeClasses: "md:w-36 h-96 sm:w-20 sm:h-28",
+      "top-[45%] left-[80%] transform -translate-x-1/2 -translate-y-1/2 md:top-auto md:bottom-[30%] md:left-[35%]",
+    sizeClasses: "w-28 h-48 md:w-36 md:h-96",
     rotationClasses: "transform rotate-6",
     animationClass: "animate-gentle-float",
     animationDelay: "0.7s",
-    zIndex: "z-0", // Detrás de otras si se superponen
+    zIndex: "z-0",
   },
-  // ... Agrega más imágenes según necesites, jugando con los valores.
-  // Fíjate en la imagen que compartiste:
-  // - Hay una imagen arriba a la izquierda (aprox. top-[18%] left-[22%])
-  // - Otra imagen un poco abajo a la izquierda (aprox. bottom-[30%] left-[18%])
-  // - Una imagen pequeña casi al centro (aprox. top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2)
-  // - Varias a la derecha, arriba y abajo.
-  // ¡Experimenta con estos valores!
 ];
 
 function App() {

@@ -29,7 +29,7 @@ const PeaceCorner: React.FC = () => {
         </p>
 
         {/* Reproductor de música */}
-        <div className="grid grid-cols-3 gap-10">
+        <div className="grid gird-cols-1 md:grid-cols-3 gap-10">
           <div className="w-full max-w-3xl rounded-xl overflow-hidden shadow-xl justify-center text-center">
             <h1 className="text-white m-auto mb-4">Para meditar</h1>
             <iframe

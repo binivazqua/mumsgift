@@ -12,7 +12,7 @@ const CartaSection: React.FC<CartaSectionProps> = ({
   children,
 }) => {
   return (
-    <section className="w-full bg-white min-h-[120vh]">
+    <section className="w-full bg-white min-h-[40vh]">
       <div className="flex flex-col md:flex-row w-full h-full">
         {/* Imagen como fondo fijo y recortado */}
         <div
