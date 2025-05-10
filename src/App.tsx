@@ -2,6 +2,7 @@ import React from "react";
 import FloatingImagesSection, {
   ImageConfig,
 } from "./components/FloatingImagesSection";
+import CartaSection from "./components/CartaSection";
 
 const imagesForMom: ImageConfig[] = [
   // Ejemplo de configuración de imágenes (¡reemplaza con las tuyas!)
@@ -132,7 +133,25 @@ function App() {
         images={imagesForMom}
         backgroundColor="bg-blue" // O cualquier otro color de Tailwind
       />
-      {/* Aquí podrían ir otras secciones de la página */}
+      {/* cartitia */}
+      <CartaSection imageSrc="src/assets/oslo.jpg" altText="Foto de mamá">
+        <h2 className="text-5xl font-bold mb-4">Querida Mami,</h2>
+        <p className="mb-4 text-2xl">
+          Hoy queremos recordarte lo mucho que significas para nosotros. Tu
+          amor, tu fuerza y tu ternura han sido el abrazo más constante que nos
+          ha sostenido toda la vida.
+        </p>
+        <p className="mb-4 text-2xl">
+          Esta carta es un pequeño intento de devolverte una parte de todo lo
+          que nos has dado. Gracias por cuidarnos, por enseñarnos, por nunca
+          rendirte.
+        </p>
+        <p className="text-2xl">
+          Con todo nuestro amor,
+          <br />
+          tus hijitos que te aman.
+        </p>
+      </CartaSection>
     </main>
   );
 }
