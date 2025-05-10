@@ -70,7 +70,7 @@ const imagesForMom: ImageConfig[] = [
     src: musical,
     alt: "Abrazos",
     positionClasses:
-      "top-[40%] left-[20%] transform -translate-x-1/2 -translate-y-1/2 md:top-1/4 md:bottom-[30%] md:left-[45%]",
+      "top-[35%] left-[20%] transform -translate-x-1/2 -translate-y-1/2 md:top-1/4 md:bottom-[30%] md:left-[45%]",
     sizeClasses: "w-28 h-40 md:w-36 md:h-44",
     rotationClasses: "transform rotate-6",
     animationClass: "animate-gentle-float",
@@ -94,7 +94,7 @@ const imagesForMom: ImageConfig[] = [
     src: cumplebini,
     alt: "Cumpleaños",
     positionClasses:
-      "top-[55%] left-[10%] md:top-auto md:bottom-[30%] md:left-[35%]",
+      "top-[58%] left-[10%] md:top-auto md:bottom-[30%] md:left-[35%]",
     sizeClasses: "w-40 h-48 md:w-44 md:h-96",
     rotationClasses: "transform rotate-6",
     animationClass: "animate-gentle-float",
@@ -118,7 +118,7 @@ const imagesForMom: ImageConfig[] = [
     src: los3,
     alt: "los3",
     positionClasses:
-      "top-[45%] left-[80%] transform -translate-x-1/2 -translate-y-1/2 md:top-auto md:bottom-[30%] md:left-[35%]",
+      "top-[45%] left-[60%] transform -translate-x-1/2 -translate-y-1/2 md:top-auto md:bottom-[30%] md:left-[35%]",
     sizeClasses: "w-28 h-48 md:w-36 md:h-96",
     rotationClasses: "transform rotate-6",
     animationClass: "animate-gentle-float",
